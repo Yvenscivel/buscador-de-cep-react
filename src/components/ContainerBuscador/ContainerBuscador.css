@@ -1,0 +1,30 @@
+.container-buscador{
+    background-color: rgb(25, 84, 120);
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+}
+
+.container-buscador input{
+    background-color: transparent;
+    outline: none;
+    color: #ffffff;
+    border: none;
+    margin-right: 10px;
+}
+.container-buscador input::placeholder{
+    color: #ffffff;
+}
+.container-buscador button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.5s ease;
+}
+
+.container-buscador button:hover{
+    transform: scale(1.2);
+}
