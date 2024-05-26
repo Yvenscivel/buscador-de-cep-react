@@ -1,0 +1,9 @@
+.titulo{
+    color: #ffffff;
+    margin: 20px 0;
+    font-size: 70px;
+    transition: transform 0.5s ease;
+}
+.titulo:hover{
+    transform: scale(1.1);
+}

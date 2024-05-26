@@ -1,5 +1,6 @@
+import React from "react";
 import { FaSearch } from "react-icons/fa";
-import './ContainerBuscador.css'
+import './ContainerBuscador.css';
 
 function ContainerBuscador(){
     return(
@@ -12,7 +13,7 @@ function ContainerBuscador(){
                 <FaSearch  size={20} color="#f5f5f5"/>
             </button>
         </div>
-    )
-}
+    );
+};
 
 export default ContainerBuscador;

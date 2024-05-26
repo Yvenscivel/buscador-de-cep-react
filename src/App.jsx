@@ -1,11 +1,13 @@
 import ContainerBuscador from "./components/ContainerBuscador/ContainerBuscador";
+import Titulo from "./components/Titulo/Titulo";
+import Card from "./components/Card/Card";
+
 function App(){
     return(
         <div className="container">
-            <h1 className="titulo">Meu Buscador de CEP</h1>
+            <Titulo />
             <ContainerBuscador />
-            <div className="card">
-            </div>
+            <Card />
         </div>
     );
 };

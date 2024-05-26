@@ -18,21 +18,4 @@ body{
     flex-direction: column;
 }
 
-.titulo{
-    color: #ffffff;
-    margin: 20px 0;
-    font-size: 70px;
-    transition: transform 0.5s ease;
-}
-.titulo:hover{
-    transform: scale(1.1);
-}
 
-.card{
-    width: 500px;
-    height: 200px;
-    background-color: #ffffff;
-    border-radius: 8px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-    margin: 20px 0;
-}
